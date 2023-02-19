@@ -62,7 +62,7 @@ function ProjectDisplay(props) {
             variants={bgOverlap}
           ></motion.div>
           <motion.div
-            className="project-content text-white w-60 m-auto md:w-962 z-10"
+            className="project-content text-white w-60 md:w-96 m-auto z-10 text-light-blue"
             variants={item}
             transition={{ duration: 0.4 }}
           >

@@ -30,7 +30,7 @@ function Showcase() {
 
   return (
     <div id="showcase" className="px-7 pt-20 h-fit pb-20">
-      <div className="showcase-title font-gugi text-5xl mb-10">
+      <div className="showcase-title font-gugi text-5xl mb-10 text-blue">
         <h1>Projects</h1>
       </div>
       <div className="grid grid-cols-1 gap-4 md:grid-cols-2 md:gap-12">

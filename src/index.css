@@ -21,6 +21,13 @@
   --grey-white: #eeeeee;
 }
 
+.theme3 {
+  --dark-navy-blue: #06283d;
+  --light-navy-blue: #256d85;
+  --blue: #47b5ff;
+  --light-blue: #dff6ff;
+}
+
 body,
 html,
 #root {
@@ -30,6 +37,7 @@ html,
 
 body {
   margin: 0;
+  -webkit-tap-highlight-color: transparent;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -39,23 +47,20 @@ body {
 } */
 
 .header {
-  background-color: var(--black);
-  color: var(--green);
+  background-color: var(--dark-navy-blue);
+  color: var(--light-blue);
 }
 
 .content {
-  background-color: var(--light-black);
+  background-color: var(--dark-navy-blue);
+  color: var(--light-blue);
 }
 .content-title {
   color: var(--green);
 }
 
 #showcase {
-  background-color: var(--light-black);
-}
-
-.showcase-title {
-  color: var(--green);
+  background-color: var(--dark-navy-blue);
 }
 
 .project {
@@ -89,6 +94,6 @@ body {
 }
 
 .footer {
-  background-color: var(--black);
-  color: var(--green);
+  background-color: var(--light-navy-blue);
+  color: var(--light-blue);
 }
